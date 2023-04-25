@@ -6,7 +6,7 @@ import React from "react";
 var _react = React;
 
 var isDeepEquals = function isDeepEquals(toCompare, reference) {
-  return (0, _.isEqual.default)(toCompare, reference);
+  return _.isEqual(toCompare, reference);
 };
 
 var useDeepCompareMemo = function useDeepCompareMemo(dependencies) {
